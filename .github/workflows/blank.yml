@@ -19,11 +19,12 @@ jobs:
         echo test, and deploy your project.
         git config user.name ${NAME}
         git config user.email ${EMAIL}
-        git remote set-url origin https://${NAME}:${{ PASSWD.MY_SECRET }}@github.com/${NAME}/${REPO}
+        git remote set-url origin https://${NAME}:${{ secrets.MY_SECRET }}@github.com/${NAME}/${REPO}
         git branch
         git checkout master
         git branch
-        ./omikuji.sh >> README.md
+        #./omikuji.sh >> README.md
+        echo "test." >> README.md
         git add .
         git commit -m "update!"
       env:
