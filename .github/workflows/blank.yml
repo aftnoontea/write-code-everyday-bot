@@ -23,10 +23,11 @@ jobs:
         git branch
         git checkout master
         git branch
-        #./omikuji.sh >> README.md
-        echo "test." >> README.md
+        ./omikuji.sh >> README.md
+        #echo "test." >> README.md
         git add .
         git commit -m "update!"
+        git push -u origin master
       env:
         NAME: aftnoontea
         EMAIL: saiya24famille@gmail.com
