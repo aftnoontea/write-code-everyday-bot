@@ -1,10 +1,9 @@
 name: CI
 
 on:
-  #push: # 一度動作確認してActionsが動きそうならオフにする # オフにしないとpushの無限ループにおちいるよ。
-#   schedule:
-#   - cron: 0 0 * * *
-#
+  #push: # DEBUG
+  schedule:
+  - cron: 0 0 * * * #JST 09:00
 
 jobs:
   build:
