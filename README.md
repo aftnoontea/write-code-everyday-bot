@@ -3,9 +3,8 @@
 ## 解説
 
 - GitHub Actions を使うサンプル
-  - CIから朝9時に自動的にコミットしてpushしてます
-  - （毎日コミットしててえらいなーーと騙された方はごめんなさい！！）
-  - [Qiitaの記事](https://qiita.com/ykhirao/items/65fee829ee0478187027)はこちら。
+  - CIから朝9時に今日の運勢をこの文書に末尾へ追記し、自動的にコミットしてpushします。
+  - 設定方法は[Qiitaの記事](https://qiita.com/ykhirao/items/65fee829ee0478187027)を参照して下さい。
 
 - push時の認証方法について注意事項
   - 本サンプルでは、pushする手段としてHTTPSを使用しています。
