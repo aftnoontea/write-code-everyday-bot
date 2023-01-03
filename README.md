@@ -2,7 +2,7 @@
 
 ## 解説
 
-- GitHub Actions を使うサンプル
+- GitHub Actions を使うサンプルです
   - CIから朝9時に今日の運勢をこの文書に末尾へ追記し、自動的にコミットしてpushします。
   - 設定方法は[Qiitaの記事](https://qiita.com/ykhirao/items/65fee829ee0478187027)を参照して下さい。
 
