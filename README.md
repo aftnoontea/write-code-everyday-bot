@@ -10,7 +10,8 @@
   - 本サンプルでは、pushする手段としてHTTPSを使用しています。
   - ただしパスワード認証は廃止されたため、secretsにパスワードを使用すると認証エラーになります。
   - 代替手段としてアクセストークンを発行し、それを環境変数のsecretsに登録してください。
-    - [Settings] -> [Developer settings] -> [Personal access tokens] -> [Tokens(classic)] -> [Generate new token]
+    - [自身のアイコン] -> [Settings] -> [Developer settings] -> [Personal access tokens] -> [Tokens(classic)] -> [Generate new token] -> トークン生成
+    - [このリポジトリ] -> [Settings] -> [Secrets and variables] -> [Action] -> [Repository secrets] -> MY_SECRETを更新
 
 ## 今日の運勢（自動追記）
 - 2023-01-03 吉
